@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "quickdelivery:latest"
+        DOCKER_IMAGE = "mongo:latest"
         HELM_RELEASE = "quickdelivery"
     }
 
